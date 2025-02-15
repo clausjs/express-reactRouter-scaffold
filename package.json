@@ -1,7 +1,7 @@
 {
-  "name": "our-todos",
-  "version": "1.0.0",
-  "description": "A to-do list using express and React/Redux for tracking things that need to be done",
+  "name": "express-reactrouter-scaffold",
+  "version": "2.0.0",
+  "description": "A barebones node.js express app using React and react-router in the frontend. Built to help future project scaffolding and webpack learning.",
   "main": "index.js",
   "scripts": {
     "start": "npx webpack && node ./server/app.js",
@@ -10,23 +10,27 @@
   "author": "Joseph Claus",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
-    "express": "^4.17.1",
-    "mongodb": "^3.3.2",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0",
-    "react-router-dom": "^5.1.1"
+    "express": "^5.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^7.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/react-router-dom": "^5.3.3",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
-    "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
+    "html-webpack-plugin": "5.6.3",
+    "sass": "^1.84.0",
+    "sass-loader": "^8.0.2",
     "style-loader": "^1.0.0",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
   }
 }
